@@ -1,0 +1,28 @@
+@mixin detail_text {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 16px;
+}
+@mixin btn {
+    opacity: 0.3;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 10px 0;
+    width: 70px;
+    background-color: unset;
+    cursor: pointer;
+    &:nth-child(2){
+        margin-left: 8px;
+        img{
+            transform: rotate(180deg);
+        }
+    }
+}
