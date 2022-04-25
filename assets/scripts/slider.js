@@ -12,7 +12,6 @@ $('.slider_fist').slick({
     slidesToShow: 3,
     slidesToScroll: 3,   
     infinite: true,
-    dots: true
     }
     },
     {
